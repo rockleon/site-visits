@@ -1,4 +1,4 @@
-module.exports = function siteVisits(key, debug = false) {
+module.exports = function updateSiteVisit(key, debug = false) {
   const url = "https://site-visits.herokuapp.com/visits";
   const local_domains = ["localhost", "127.0.0.1", ""];
   const host = location.hostname;
