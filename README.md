@@ -4,6 +4,7 @@
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@rockleon/site-visits.svg)](https://www.npmjs.com/package/@rockleon/site-visits)
 
 npm package to keep count of visits made to your website.
+This package is still under development!
 
 ## Install
 
@@ -14,6 +15,11 @@ $ npm install @rockleon/site-visits
 ## Usage
 
 ```js
-const visits = require("@rockleon/site-visits");
+<!--- Import function from package -->
+import siteVisits from "@rockleon/site-visits";
+
+<!--- Execute function -->
+const key = "your key";
+siteVisits(key, sessionStorage);
 
 ```
