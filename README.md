@@ -20,7 +20,7 @@ $ yarn add @rockleon/site-visits
 
 ```js
 // Import function from package
-import siteVisits from "@rockleon/site-visits";
+import updateSiteVisit from "@rockleon/site-visits";
 
 // Execute function
 const key = "your_key";
