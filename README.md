@@ -9,10 +9,10 @@ This package is still under development!
 ## Install
 
 ```
-// Using npm
+Using npm
 $ npm install @rockleon/site-visits
 
-// Using yarn
+Using yarn
 $ yarn add @rockleon/site-visits
 ```
 
