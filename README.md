@@ -9,10 +9,10 @@ This package is still under development!
 ## Install
 
 ```
-Using npm
+# Using npm
 $ npm install @rockleon/site-visits
 
-Using yarn
+# Using yarn
 $ yarn add @rockleon/site-visits
 ```
 
@@ -23,7 +23,24 @@ $ yarn add @rockleon/site-visits
 import siteVisits from "@rockleon/site-visits";
 
 // Execute function
-const key = "your key";
-siteVisits(key, sessionStorage);
-
+const key = "your_key";
+siteVisits(key);
 ```
+
+You can use this package in debug mode by passing the second parameter as 'true' while developing and testing your site.
+In debug mode, your website's actual visit count won't get updated.
+Instead you will recieve messages in console informing if the package is working fine; or stating the errors, if any.
+If you are running the website locally, then the package will by default run in debug mode.
+
+```js
+const key = "your_key";
+siteVisits(key, true);
+```
+
+This package makes use of [SessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage) to prevent visit-count update if the user refreshes or navigates in the same website. The visit-count is not updated if the browser doesn't support SessionStorage.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
