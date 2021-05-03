@@ -9,7 +9,11 @@ This package is still under development!
 ## Install
 
 ```
+<!-- Using npm -->
 $ npm install @rockleon/site-visits
+
+<!-- Using yarn -->
+$ yarn add @rockleon/site-visits
 ```
 
 ## Usage
