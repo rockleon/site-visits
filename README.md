@@ -15,10 +15,10 @@ $ npm install @rockleon/site-visits
 ## Usage
 
 ```js
-<!--- Import function from package -->
+// Import function from package
 import siteVisits from "@rockleon/site-visits";
 
-<!--- Execute function -->
+// Execute function
 const key = "your key";
 siteVisits(key, sessionStorage);
 
