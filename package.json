@@ -1,6 +1,6 @@
 {
   "name": "@rockleon/site-visits",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "npm package to keep count of number of times a site is visited.",
   "main": "index.js",
   "scripts": {

@@ -4,19 +4,23 @@
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@rockleon/site-visits.svg)](https://www.npmjs.com/package/@rockleon/site-visits)
 
 npm package to keep count of visits made to your website.
-This package is still under development!
+
+**This package is still under development!!**
 
 ## Install
 
+Using npm
 ```
-# Using npm
-$ npm install @rockleon/site-visits
-
-# Using yarn
-$ yarn add @rockleon/site-visits
+npm install @rockleon/site-visits
+```
+Using yarn
+```
+yarn add @rockleon/site-visits
 ```
 
 ## Usage
+
+
 
 ```js
 // Import function from package
@@ -27,6 +31,13 @@ const key = "your_key";
 updateSiteVisit(key);
 ```
 
+Import and call this function in the main page/app/index of your project in the following functions, so that the visit-count updates when your main page is loaded.
+- Javascript: window.onload()
+- React: componentDidMount()
+- Vue: mounted()
+- Angular: ngOnInit()
+
+### Debug Mode
 You can use this package in debug mode by passing the second parameter as 'true' while developing and testing your site.
 In debug mode, your website's actual visit count won't get updated.
 Instead you will recieve messages in console informing whether the package is working fine; or stating the errors, if any.
