@@ -20,8 +20,6 @@ yarn add @rockleon/site-visits
 
 ## Usage
 
-
-
 ```js
 // Import function from package
 import updateSiteVisit from "@rockleon/site-visits";
@@ -48,7 +46,7 @@ const key = "your_key";
 updateSiteVisit(key, true);
 ```
 
-This package makes use of [SessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage) to prevent visit-count update if the user refreshes or navigates in the same website. The visit-count is not updated if the browser doesn't support SessionStorage.
+This package makes use of [SessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage) to prevent visit-count updates if the user refreshes or navigates in the same website. The visit-count is not updated if the browser doesn't support SessionStorage.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
