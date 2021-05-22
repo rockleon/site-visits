@@ -3,9 +3,18 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@rockleon/site-visits.svg)](https://www.npmjs.com/package/@rockleon/site-visits)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@rockleon/site-visits.svg)](https://www.npmjs.com/package/@rockleon/site-visits)
 
-npm package to keep count of visits made to your website.
+**npm package to keep count of visits made to your website.**
 
-**This package is still under development!!**
+Want to keep count of the number of times your website is viewed? Well, here's a solution!
+Keep track of visit-count of all your websites. At one place!!
+
+Website : [https://site-visits-rockleon.web.app/](https://site-visits-rockleon.web.app/)
+
+Steps :
+- Go to the specified website and register/login.
+- Create a project for your specific website; a unique will be generated.
+- Use the key with this package.
+
 
 ## Install
 
@@ -36,7 +45,7 @@ Import and call this function in the main page/app/index of your project in the 
 - Angular: ngOnInit()
 
 ### Debug Mode
-You can use this package in debug mode by passing the second parameter as 'true' while developing and testing your site.
+You can use this package in debug mode by passing the second argument as 'true' while developing and testing your site.
 In debug mode, your website's actual visit count won't get updated.
 Instead you will recieve messages in console informing whether the package is working fine; or stating the errors, if any.
 If you are running the website locally, then the package will by default run in debug mode.
