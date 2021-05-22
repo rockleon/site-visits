@@ -6,13 +6,14 @@
 **npm package to keep count of visits made to your website.**
 
 Want to keep count of the number of times your website is viewed? Well, here's a solution!
+
 Keep track of visit-count of all your websites. At one place!!
 
 Website : [https://site-visits-rockleon.web.app/](https://site-visits-rockleon.web.app/)
 
 Steps :
 - Go to the specified website and register/login.
-- Create a project for your specific website; a unique will be generated.
+- Create a project for your specific website; a unique key will be generated.
 - Use the key with this package.
 
 
